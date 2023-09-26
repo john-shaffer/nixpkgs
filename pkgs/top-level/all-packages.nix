@@ -4190,6 +4190,8 @@ with pkgs;
   };
   aria = aria2;
 
+  arrow-tools = callPackage ../tools/misc/arrow-tools { };
+
   as-tree = callPackage ../tools/misc/as-tree { };
 
   asmfmt = callPackage ../development/tools/asmfmt { };
